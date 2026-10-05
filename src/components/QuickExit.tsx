@@ -24,7 +24,7 @@ return (
         onClick={handleQuickExit}
         aria-label="Sair rápido deste site e ir para a pesquisa do Google. Você também pode pressionar a tecla Esc a qualquer momento."
         style={{
-        backgroundColor: '#252927',
+        backgroundColor: 'var(--brand-deep-green)',
         color: '#FFFFFF',
         border: 'none',
         padding: '0.5rem 1rem',
@@ -37,7 +37,7 @@ return (
         gap: '0.4rem'
         }}
       >
-        <span>🚪 Sair rápido</span>
+        <span>Sair rápido</span>
         <span style={{ fontSize: '0.75rem', opacity: 0.8, fontWeight: 'normal' }}>(Atalho: Esc)</span>
       </button>
     </div>

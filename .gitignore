@@ -4,3 +4,16 @@ dist/
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.old
+*.orig
+backup*

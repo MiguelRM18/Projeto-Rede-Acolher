@@ -1,21 +1,27 @@
 :root {
---bg-ivory: #F5F1E8;
---bg-card: #FFFDF8;
---text-primary: #24302D;
---text-secondary: #53605B;
+--bg-ivory: #F1F5F3;
+--bg-card: #FCFDFC;
+--bg-accent: #E3EFEC;
+--bg-warm: #FFF3E3;
+--text-primary: #203436;
+--text-secondary: #52676A;
 
---brand-deep-green: #17453F;
---brand-medium-green: #3C7468;
---brand-terracotta: #C3644C;
---brand-terracotta-dark: #934633;
---brand-warm-yellow: #E8B95D;
+--brand-deep-green: #163F46;
+--brand-medium-green: #2D7770;
+--brand-terracotta: #C85D4A;
+--brand-terracotta-dark: #963F32;
+--brand-warm-yellow: #D9A53B;
 
---emergency-red: #A52E32;
---emergency-bg: #FFF2EE;
---emergency-border: #F0C5BB;
+--emergency-red: #A63240;
+--emergency-bg: #FFF0EC;
+--emergency-border: #E8B9B1;
 
---border-subtle: #D8D2C5;
---focus-ring: #C3644C;
+--border-subtle: #D0DEDA;
+--focus-ring: #CC5B47;
+--footer-background: #17383D;
+--footer-foreground: #F1F7F5;
+--footer-muted: #C2D4D2;
+--footer-divider: #415F61;
 
 --font-heading: Georgia, 'Times New Roman', serif;
 --font-body: 'Avenir Next', Avenir, 'Trebuchet MS', sans-serif;

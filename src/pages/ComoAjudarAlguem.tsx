@@ -37,7 +37,7 @@ export const ComoAjudarAlguem: React.FC = () => {
               prefira: "“Eu acredito no que você está me contando e estou do seu lado.”"
             }
           ].map((item, idx) => (
-            <div key={idx} style={{ padding: '1rem', borderRadius: 'var(--radius-subtle)', backgroundColor: '#F9F8F6', border: '1px solid var(--border-subtle)' }}>
+            <div key={idx} style={{ padding: '1rem', borderRadius: 'var(--radius-subtle)', backgroundColor: 'var(--bg-accent)', border: '1px solid var(--border-subtle)' }}>
               <p style={{ color: 'var(--emergency-red)', fontWeight: 'bold', fontSize: '0.95rem' }}>❌ EVITE:</p>
               <p style={{ marginBottom: '0.5rem', fontStyle: 'italic' }}>{item.evite}</p>
               <p style={{ color: 'var(--brand-deep-green)', fontWeight: 'bold', fontSize: '0.95rem' }}>✅ PREFIRA:</p>

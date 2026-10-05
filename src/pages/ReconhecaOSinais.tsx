@@ -36,7 +36,7 @@ export const ReconhecaOSinais: React.FC = () => {
             <legend className="sr-only">Perguntas de reflexão sobre relacionamento</legend>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {questions.map((q) => (
-                <label key={q.id} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', cursor: 'pointer', padding: '0.75rem', borderRadius: '4px', backgroundColor: checkedItems[q.id] ? '#F0F5F4' : 'transparent' }}>
+                <label key={q.id} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', cursor: 'pointer', padding: '0.75rem', borderRadius: '4px', backgroundColor: checkedItems[q.id] ? 'var(--bg-accent)' : 'transparent' }}>
                   <input
                     type="checkbox"
                     checked={!!checkedItems[q.id]}
@@ -51,7 +51,7 @@ export const ReconhecaOSinais: React.FC = () => {
         </form>
 
         {countChecked > 0 && (
-          <div style={{ marginTop: '1.5rem', padding: '1.25rem', backgroundColor: '#FDF7EB', borderRadius: 'var(--radius-subtle)', borderLeft: '4px solid var(--brand-warm-yellow)' }}>
+          <div style={{ marginTop: '1.5rem', padding: '1.25rem', backgroundColor: 'var(--bg-warm)', borderRadius: 'var(--radius-subtle)', borderLeft: '4px solid var(--brand-warm-yellow)' }}>
             <h3 style={{ fontSize: '1.1rem', color: 'var(--brand-deep-green)', margin: '0 0 0.5rem 0' }}>
               Orientação de Apoio
             </h3>

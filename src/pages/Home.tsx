@@ -90,7 +90,7 @@ export const Home: React.FC<HomeProps> = ({ setActiveTab }) => {
         </div>
       </section>
 
-      <section className="pathways-section" style={{ padding: '2rem', backgroundColor: '#EFEAE1', borderRadius: 'var(--radius-subtle)' }}>
+      <section className="pathways-section" style={{ padding: '2rem', backgroundColor: 'var(--brand-deep-green)', borderRadius: 'var(--radius-subtle)' }}>
         <h2>Por onde você gostaria de começar?</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
           <button onClick={() => setActiveTab('entenda')} className="btn btn-secondary" style={{ backgroundColor: '#FFF', justifyContent: 'flex-start', padding: '1.2rem' }}>

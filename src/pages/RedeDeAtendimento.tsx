@@ -17,7 +17,7 @@ export const RedeDeAtendimento: React.FC = () => {
       </p>
 
       {!institutionConfig.partnerInstitution.isVerified && (
-        <div style={{ backgroundColor: '#FDF7EB', padding: '1rem', borderLeft: '4px solid var(--brand-warm-yellow)', borderRadius: '4px', marginBottom: '1.5rem' }}>
+        <div style={{ backgroundColor: 'var(--bg-warm)', padding: '1rem', borderLeft: '4px solid var(--brand-warm-yellow)', borderRadius: '4px', marginBottom: '1.5rem' }}>
           <strong>ℹ️ Nota explicativa:</strong> Os dados locais apresentados abaixo são demonstrativos e serão validados presencialmente com a equipe do {institutionConfig.partnerInstitution.name} antes da entrega final do projeto.
         </div>
       )}
@@ -32,7 +32,7 @@ export const RedeDeAtendimento: React.FC = () => {
               padding: '0.4rem 0.8rem',
               borderRadius: '4px',
               border: '1px solid var(--brand-deep-green)',
-              background: filterType === t ? 'var(--brand-deep-green)' : '#FFF',
+              background: filterType === t ? 'var(--brand-deep-green)' : 'var(--bg-card)',
               color: filterType === t ? '#FFF' : 'var(--brand-deep-green)',
               cursor: 'pointer'
             }}
