@@ -33,3 +33,4 @@ npm run build
 ```
 
 O projeto também possui publicação automática no GitHub Pages por meio do workflow em `.github/workflows/deploy.yml`.
+"# Rede-Acolher" 
